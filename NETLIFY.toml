@@ -1,7 +1,0 @@
-# netlify.toml - build the client only and publish the Vite output
-[build]
-  command = "pnpm install && pnpm run build:client"
-  publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "18"
